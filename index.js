@@ -1,19 +1,18 @@
-/**
- * This is a function.
- *
- * @param {number} num1 - A number param
- * @param {number} num2 - A number param
- * 
- * @return {number} Add numbers
- *
- * @example
- *
- *     addTwoNumber(15,18);
- */
-function addTwoNumber(num1, num2) {
-    return num1 + num2;
-}
+//DECLARATION
 
-const sum = addTwoNumber(15, 18);
+const express = require('express');
+const app = express();
 
-console.log(sum)
+//CONFIGURATION
+//MIDDLEWARE
+//ROUTES
+
+app.get('/', (req, res) => {
+    res.send('Welcome to the Node.js')
+})
+
+//SERVER
+
+app.listen(5000, () => {
+    console.log('Server Started');
+})

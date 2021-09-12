@@ -1,0 +1,9 @@
+#security
+.env
+
+#dependencies
+node_modules
+views
+
+#reserved codes
+viewEngineCode.js
