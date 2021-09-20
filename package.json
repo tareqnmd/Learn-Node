@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/tareqnmd/Learn-Node#readme",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
