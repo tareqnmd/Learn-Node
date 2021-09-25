@@ -17,7 +17,7 @@ const get = async (id) => {
 const add = async (data) => {
 	const { customerName, email, phone } = data;
 	const sql = `INSERT INTO ${table} VALUES (null,?,?,?)`;
-	const createCustomer = await db.query(sql,[customerName,email,phone]);
+	const createCustomer = await db.query(sql,[customerName,phone,email]);
 	return createCustomer;
 };
 
