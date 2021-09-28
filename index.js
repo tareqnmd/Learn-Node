@@ -5,13 +5,14 @@ const app = express();
 
 const { registerRoutes } = require('./routes'); 
 
-const port = 5000;
+const port = 3000;
 
 //CONFIGURATION
 
 app.use(express.json());
 
 //MIDDLEWARE
+
 //ROUTES
 
 registerRoutes(app);
@@ -19,5 +20,5 @@ registerRoutes(app);
 //SERVER
 
 app.listen(port, () => {
-    console.log('Server Started');
+    console.log(`Server Started at port ${port}...`);
 })

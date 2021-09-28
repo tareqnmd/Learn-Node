@@ -1,4 +1,4 @@
-const customerController = require('./controllers/customer/customer.controller');
+const customerController = require('./controllers/customer.controller');
 
 const registerRoutes = (app) => {
 
