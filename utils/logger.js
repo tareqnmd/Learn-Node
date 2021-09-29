@@ -1,6 +1,6 @@
 const winston = require('winston');
 const config = require('../config.json');
-const defaultDateTimeFormat = 'YYYY-MM-DDTHH:mm:ss';
+const defaultDateTimeFormat = 'YYYY-MM-DD HH:mm:ss';
  
 const logger = new winston.createLogger({
   level: config.logLevel || 'info',

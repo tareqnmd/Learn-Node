@@ -5,7 +5,7 @@ const app = express();
 
 const { registerRoutes } = require('./routes'); 
 
-const port = 3000;
+const port = 5000;
 
 //CONFIGURATION
 
