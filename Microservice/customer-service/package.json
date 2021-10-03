@@ -1,0 +1,27 @@
+{
+  "name": "account_manager",
+  "version": "1.0.0",
+  "description": "Learnig Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tareqnmd/Learn-Node.git"
+  },
+  "author": "tareqnmd@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tareqnmd/Learn-Node/issues"
+  },
+  "homepage": "https://github.com/tareqnmd/Learn-Node#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.11.1",
+    "mysql": "^2.18.1",
+    "winston": "^3.3.3"
+  }
+}
