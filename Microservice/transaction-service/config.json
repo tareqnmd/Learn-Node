@@ -1,0 +1,14 @@
+{
+	"rds": {
+		"host": "127.0.0.1",
+		"port": "3306",
+		"user": "root",
+		"password": "",
+		"database": "accountdb"
+	},
+	"services": {
+		"customer":  "http://localhost:3001",
+		"account":  "http://localhost:3002"
+	},
+	"logLevel": "debug"
+}

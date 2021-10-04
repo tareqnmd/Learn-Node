@@ -45,6 +45,7 @@ const remove = async (id) => {
 };
 
 const getCustomer = async (id) => {
+	logger.info(`ACCOUNT-MODEL::getCustomer()`);
 	try {
 		const url = `${services.customer}/${id}`;
 		const response = await axios.get(url);

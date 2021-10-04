@@ -7,6 +7,5 @@ CREATE TABLE accounts (
 	lastTransactionAt DATETIME NOT NULL,
 	owner INT(11) NOT NULL,
 	
-	CONSTRAINT `pk_accounts_accountnumber` PRIMARY KEY (accountNumber),
-	CONSTRAINT `fk_accounts_owner` FOREIGN KEY (owner) REFERENCES customers(customerId)
+	CONSTRAINT `pk_accounts_accountnumber` PRIMARY KEY (accountNumber)
 );
