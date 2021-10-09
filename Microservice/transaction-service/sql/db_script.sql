@@ -1,7 +1,7 @@
 CREATE TABLE transactions (
 	transactionId INT(11) AUTO_INCREMENT,
 	accountNumber VARCHAR(15) NOT NULL,
-	transactionType ENUM('DEBIT','CREDIT'),
+	transactionType ENUM('DEBIT','CREDIT','TRANSFER'),
 	amount DECIMAL(10,2) NOT NULL,
 	transactionDate DATETIME NOT NULL,
 	remarks TEXT,

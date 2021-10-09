@@ -10,6 +10,10 @@ const server = gateway({
 			prefix: '/accounts',
 			target: 'http://localhost:3002',
 		},
+		{
+			prefix: '/transactions',
+			target: 'http://localhost:3003',
+		},
 	],
 });
 
