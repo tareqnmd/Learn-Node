@@ -1,6 +1,14 @@
 const gateway = require('fast-gateway');
 const port = 3000;
 const server = gateway({
+	middlewares: [
+		(req,res,next)=>{
+			if(!req.headers || !req.headers.authorization || req.headers.authorization !== 'tareq'){
+				res.send({ message : 'Invalid or Expired token' },401)
+			}
+			next();
+		}
+	],
 	routes: [
 		{
 			prefix: '/customers',

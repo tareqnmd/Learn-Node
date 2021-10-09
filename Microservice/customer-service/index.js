@@ -13,6 +13,10 @@ app.use(express.json());
 
 //MIDDLEWARE
 
+app.use('/',(req,res,next)=>{ 
+    next();
+})
+
 //ROUTES
 
 registerRoutes(app);
